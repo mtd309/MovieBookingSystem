@@ -1,7 +1,7 @@
 // ===========================================================
 // Module 2 - File Management
 // Phụ trách: Hoàng Thị Mỹ Dung
-//Mục đích: Quản lý việc đọc và ghi dữ liệu của hệ thống ra file (CSV).
+// Mục đích: Quản lý việc đọc và ghi dữ liệu của hệ thống ra file (CSV).
 // Các struct/class: FileManager (tĩnh), sử dụng lại Movie, Showtime, Booking, User
 // Các hàm: LoadMoviesFromFile, SaveMoviesToFile, LoadShowtimesFromFile, SaveShowtimesToFile, LoadBookingsFromFile, SaveBookingsToFile, LoadUsersFromFile, SaveUsersToFile, Hàm private: EnsureFileBackup(tạo file sao lưu)
 // Cac enum: UserRole (dùng lại từ Module 1)
