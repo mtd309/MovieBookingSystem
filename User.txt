@@ -1,0 +1,3 @@
+Id, Name, Role
+1, Quản Lý, Admin
+2, Người dùng, Customer
