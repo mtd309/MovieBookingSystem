@@ -16,10 +16,10 @@ namespace MovieBookingSystem
     public static class FileManager
     {
         // Đường dẫn các file dữ liệu
-        private static string moviesFile = "movies.csv";
-        private static string showtimesFile = "showtimes.csv";
-        private static string bookingsFile = "bookings.csv";
-        private static string usersFile = "users.csv";
+        private static string moviesFile = "movies.txt";
+        private static string showtimesFile = "showtimes.txt";
+        private static string bookingsFile = "bookings.txt";
+        private static string usersFile = "users.txt";
 
         // ===================== MOVIE =====================
         public static List<Movie> LoadMoviesFromFile()
