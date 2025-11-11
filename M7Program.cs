@@ -164,20 +164,6 @@ namespace MovieBookingSystem
             // Tải dữ liệu từ file (M2)
             FileManager.LoadAll(data);
             Console.WriteLine("\n[Đã tải dữ liệu từ hệ thống]");
-
-            // Nếu không có người dùng, tạo admin mặc định
-            if (!data.Users.Any())
-            {
-                data.Users.Add(new User { Id = 1, Name = "admin", Role = UserRole.Admin});
-                data.Users.Add(new User { Id = 2, Name = "user", Role = UserRole.Customer});
-            }
-
-            // Nếu không có phim nào, tải dữ liệu demo
-            if (!data.Movies.Any())
-            {
-                Console.WriteLine("[Hệ thống trống, đang tải dữ liệu mẫu...]");
-                DemoData.Load(data);
-            }
         }
 
         static void SaveData()
