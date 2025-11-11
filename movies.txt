@@ -1,6 +1,5 @@
-Id, Title, Genre, TicketPrice
-1, Mưa Đỏ, Chiến Tranh, 90000
-2, Tử Chiến Trên Không, Hành Động, 95000
-3, Mai, Tâm Lý, 85000
-4, Bố Già, Hài, 80000
-5, Thám Tử Kiên, Trinh Thám, 90000
+1,Mưa Đỏ,90000,Chiến tranh
+2,Tử Chiến Trên Không,95000,Hành động
+3,Mai,85000,Tâm lý
+4,Bố Già,80000,Hài
+5,Thám Tử Kiên,90000,Trinh thám
