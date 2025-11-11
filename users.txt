@@ -1,3 +1,5 @@
-Id, Name, Role
-1, Quản Lý, Admin
-2, Người dùng, Customer
+1,admin,Admin
+2,nguyenvana,Customer
+3,tranthib,Customer
+4,leminhc,Customer
+5,hoangdungd,Customer
