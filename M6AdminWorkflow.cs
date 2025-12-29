@@ -1,5 +1,5 @@
 // ===============================
-// M6 – Admin Workflows
+// Module 6 – Admin Workflows
 // Phụ trách: Nguyễn Hồng Hạnh 
 // Mục đích: Quản lý toàn bộ thao tác của quản trị viên trên hệ thống.
 // Các method: AddMovie, EditMovie, DeleteMovie, SortMovies, FindMovieById,ViewAllMovies, GenerateRevenueReport, Logout
