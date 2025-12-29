@@ -219,7 +219,7 @@ namespace MovieBookingSystem
         // ==========================================================
         public void ViewAllMovies(DataStorage data)
         {
-            // Chỉ cần gọi hàm hiển thị từ Module 4
+            // Gọi hàm hiển thị từ Module 4
             ConsoleUI.DisplayMovieInfo(data.Movies);
         }
 
