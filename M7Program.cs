@@ -83,7 +83,7 @@ namespace MovieBookingSystem
                 switch (choice)
                 {
                     case "1": // Xem phim & lịch chiếu
-                        userWF.ShowMoviesAndShowtimes(data);
+                        userWF.ViewAllMovies(data);
                         break;
 
                     case "2": // Tìm phim theo tên
