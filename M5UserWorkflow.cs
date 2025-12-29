@@ -67,11 +67,10 @@ namespace MovieBookingSystem
         /// <summary>
         /// 1. Luồng xem danh sách phim và các suất chiếu hiện có.
         /// </summary>
-        public void ShowMoviesAndShowtimes(DataStorage data)
+        public void ViewAllMovies(DataStorage data)
         {
             Console.Clear();
             ConsoleUI.DisplayMovieInfo(data.Movies);
-            ConsoleUI.DisplayShowtimesTable(data);
         }
 
         /// <summary>
