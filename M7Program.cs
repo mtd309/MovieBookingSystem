@@ -113,7 +113,6 @@ namespace MovieBookingSystem
 
         // -------------------------
         // MENU DÀNH CHO QUẢN TRỊ VIÊN (ADMIN)
-        // Đã cập nhật để khớp với M4 và M6
         // -------------------------
         static void AdminMenu()
         {
